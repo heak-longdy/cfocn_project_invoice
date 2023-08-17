@@ -138,3 +138,46 @@
         </div>
     </body>
 </html>
+
+
+
+
+<tr>
+    <th rowspan="2">ថ្ងៃខែ</th>
+    <th rowspan="2">លេខវិក្ក័យបត្រ</th>
+    <th rowspan="2">អតិថិជន</th>
+    <th rowspan="2">លេខអត្តសញ្ញាណកម្មអតិថិជន</th>
+    <th rowspan="2">បរិយាយ</th>
+    <th rowspan="2">បរិមាណ</th>
+    <th rowspan="2">លក់ចេញមិនជាប់អាករ</th>
+    <th rowspan="2" rowspan="2">នាំចេញ ឬ លក់ចេញក្រៅស្រុក</th>
+    <th colspan="4">លក់អោយបុគ្គលជាប់អាករ</th>
+    <th colspan="4">លក់អោយអ្នកប្រើប្រាស់</th>
+</tr>
+<tr>
+    <th colspan="2">តំលៃជាប់អាករ</th>
+    <th colspan="2">អាករ</th>
+    <th colspan="2">តំលៃជាប់អាករ</th>
+    <th colspan="2">អាករ</th>
+</tr>
+<tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th>US</th>
+    <th>KHR</th>
+    <th>US</th>
+    <th>US</th>
+    <th>KHR</th>
+    <th>US</th>
+    <th>KHR</th>
+    <th>US</th>
+    <th>KHR</th>
+    <th>US</th>
+    <th>KHR</th>
+    <th>KHR</th>
+    <th></th>
+</tr>

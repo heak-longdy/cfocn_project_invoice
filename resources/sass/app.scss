@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Siemreap&display=swap');
+
+* {
+    font-family: 'Poppins', 'Siemreap', cursive;
+}
+
+$primary      : #1e88e5;
+$border-radius: 5px;
+
+@mixin tableRow() {
+    $class: 100;
+
+    @for $i from 3 through $class {
+        .table-row-#{$i} {
+            width: #{$i}+'%';
+        }
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin   : auto;
+}
+
+.table {
+    width : 100%;
+    height: auto;
+
+    &-header {
+        display       : flex;
+        flex-direction: column;
+        text-align    : center;
+
+        h3 {
+            font-weight        : unset;
+            -webkit-text-stroke: .5px;
+            margin             : 0;
+            font-size          : 30px;
+        }
+
+        span {
+            font-size          : 20px;
+            font-weight        : unset;
+            -webkit-text-stroke: .5px;
+            text-transform     : uppercase;
+        }
+
+    }
+
+    &-body {
+        margin-top: 3px;
+    }
+}

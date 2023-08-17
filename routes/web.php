@@ -1,5 +1,6 @@
 <?php
 
+use PDF;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +15,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('invoice/01');
+});
+
+
+/* invoice */
+Route::prefix('invoice')
+    ->group(function () {
+        Route::get('01', function () {
+            return view('invoice.01');
+        });
+    });
+
+/* print and download pdf */
+Route::get('print', function () {
+    $pdf = \PDF::loadView('invoice.01');
+    return $pdf->stream('invoice.pdf');
 });
