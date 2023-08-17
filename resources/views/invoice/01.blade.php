@@ -144,7 +144,7 @@
     <div class="container">
         <div class="table">
             <div class="table-header">
-                <div class="logo">
+                <div class="logo" style="width: 100%; display: flex; justify-content: center; align-items: center;">
                     <img src="{{ public_path('logo.png') }}" alt="">
                 </div>
                 <div class="size-15 m-0 font-bold" align="center">(ខេមបូឌា) ហ្វឺប៊ើរ អុបទិច ខមញូនីខេសិន ណេតវើក</div>
